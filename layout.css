@@ -1,0 +1,101 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background: teal;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Navigation styling */
+nav {
+    background: tomato;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #00bcd4;
+}
+
+/* Main content styling */
+main {
+/* Style for the box inside the section */
+.box {
+    background-color: lightblue; /* Light background color for the box */
+    border: 2px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 1rem; /* Inner spacing */
+    margin: 1rem 0; /* Space around the box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.box p {
+    margin: 0; /* Reset margin for text inside the box */
+    color: #333; /* Text color */
+}
+
+    padding: 1rem;
+    background: #fff;
+}
+
+.content {
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Footer styling */
+footer {
+    background: teal;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: sticky;
+    top: 100%;
+    bottom: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar li {
+        margin: 0.5rem 0;
+    }
+}
